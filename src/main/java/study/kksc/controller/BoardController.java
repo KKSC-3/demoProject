@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController("/board")
-public class boardcontroller {
+public class BoardController {
     @GetMapping("/")
     public String createPost(@RequestParam String param) {
         return null;
