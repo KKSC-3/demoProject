@@ -36,4 +36,15 @@ public class Member {
         this.email = email;
         this.password = password;
     }
+
+    public void updatePw(String password){
+        this.password = password;
+    }
+    public void updateEmail(String email){
+        this.email = email;
+    }
+    public void updatePhonenum(String phoneNum){
+        this.phoneNum = phoneNum;
+    }
+
 }
