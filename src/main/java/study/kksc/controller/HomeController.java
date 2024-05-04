@@ -9,5 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 @Slf4j
 public class HomeController {
+    @GetMapping("/")
+    public String test() {
+        return "/fragments/test";
+    }
 
 }
